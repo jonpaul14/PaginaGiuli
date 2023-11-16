@@ -1,0 +1,40 @@
+header {
+  background: rgba(0,0,0,0.7);
+  width: 1024px;
+  position: initial;
+  z-index: 100;
+}
+nav {
+  background: rgba(0,0,0,0.7);
+  width: 1024px;
+  float: left;
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  border-right: 2px solid white;
+}
+.car{
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 500px;
+  background: url("/assets/image/discount-basket_8946992.png") no-repeat ;
+  border: 0;
+}
+nav ul li:hover {
+  background: #eca023;
+}
